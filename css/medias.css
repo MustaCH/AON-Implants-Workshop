@@ -105,12 +105,14 @@
     justify-content: center;
     text-decoration: none;
     margin-top: 5%;
+    margin-right: 0%;
   }
 
   #btn-book-now {
     width: 240px;
     height: 55px;
     font-size: 1rem;
+    margin-right: 0%;
   }
 
   #btn-book-now:hover {
@@ -209,6 +211,7 @@
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
+    margin-right: 0%;
   }
 
   #btn-book {
@@ -216,6 +219,10 @@
     padding-right: 0%;
     padding-top: 5%;
     font-size: 0.7rem;
+  }
+
+  #btn-book-now {
+    margin-right: 0%;
   }
 
   #date {
@@ -442,6 +449,7 @@
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
+    margin-right: 0%;
   }
 
   #btn-book {
@@ -449,6 +457,10 @@
     padding-right: 0%;
     padding-top: 5%;
     font-size: 0.7rem;
+  }
+
+  #btn-book-now {
+    margin-right: 0%;
   }
 
   #date {
@@ -676,6 +688,7 @@
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
+    margin-right: 0%;
   }
 
   #btn-book {
@@ -683,6 +696,10 @@
     padding-right: 0%;
     padding-top: 5%;
     font-size: 0.7rem;
+  }
+
+  #btn-book-now {
+    margin-right: 0%;
   }
 
   #date {
@@ -898,6 +915,10 @@
     position: static;
     margin-left: 15%;
     margin-bottom: 10%;
+  }
+
+  #btn-book-now {
+    margin-right: 0%;
   }
 
   #ce-credits {
@@ -1126,6 +1147,10 @@
     margin-top: -2rem;
   }
 
+  #btn-book-now {
+    margin-right: 0%;
+  }
+
   #ce-credits {
     top: 75%;
     left: 62%;
@@ -1341,6 +1366,10 @@
     text-decoration: none;
   }
 
+  #btn-book-now {
+    margin-right: 0%;
+  }
+
   #ce-credits {
     top: 77%;
     left: 72%;
@@ -1548,6 +1577,10 @@
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
+  }
+
+  #btn-book-now {
+    margin-right: 0%;
   }
 
   .title {
