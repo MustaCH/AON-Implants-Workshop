@@ -211,8 +211,460 @@
   }
 }
 
-/* acá va lo de  QUIQUE */
+@media only screen and (max-width: 440px) {
+  .body {
+    overflow-x: hidden;
+  }
+  header {
+    overflow: hidden;
+    background-image: url("../img/bg-mobile.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 5% 0% 10% 0%;
+  }
+
+  #return-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #return {
+    position: static;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+
+  #btn-book {
+    justify-content: center;
+    padding-right: 0%;
+    padding-top: 5%;
+    font-size: 0.7rem;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.38px;
+    margin: 1%;
+  }
+
+  .title {
+    z-index: 3;
+    font-size: 3.2rem;
+    line-height: 65px;
+    margin-left: 30px;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.8px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #ce-credits {
+    top: 77%;
+    left: -80%;
+    width: 65px;
+    height: 65px;
+    font-size: 0.8rem;
+    z-index: 2;
+    margin-left: -8%;
+  }
+
+  #circle-left {
+    width: 12%;
+    overflow: hidden;
+  }
+
+  #circle-1 {
+    visibility: hidden;
+  }
+
+  #circle-2 {
+    visibility: hidden;
+  }
+
+  #circle-3 {
+    visibility: hidden;
+  }
+
+  #intermediate {
+    padding: 0% 2%;
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+
+  /*--HOTEL--*/
+
+  #location-tit {
+    letter-spacing: 1.5px;
+    font-size: 2.5rem;
+  }
+
+  #location-sub {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  #location-dir {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+  }
+
+  /*--ABSTRACT--*/
+
+  #abstract {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3%;
+  }
+
+  #abstract div img {
+    width: 60%;
+    margin: 0%;
+  }
+
+  #abstract p {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  /*--ORADORES--*/
+
+  #orators {
+    background-color: #182256;
+    font-family: "Roboto" Thin, sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*--PROGRAM--*/
+
+  #program {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 1rem;
+    list-style-image: url("../img/ul-ico.png");
+  }
+
+  .inter {
+    list-style-image: url("../img/ul-ico-2.png");
+  }
+
+  /*--WORKSHOP--*/
+
+  #workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workshops-tit {
+    margin-bottom: 15%;
+  }
+
+  #workshop-1 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-1 div h5 {
+    font-size: 1rem;
+  }
+
+  #workshop-2 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-2 div h5 {
+    font-size: 1rem;
+  }
+
+  /*--REGISTRO--*/
+
+  #register {
+    background-color: #182256;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #register h2 {
+    font-size: 1.5rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #register p {
+    font-size: 1rem;
+  }
+
+  #register a {
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  #register button {
+    border: 2px solid #5c32ea;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 3% 5% 3% 5%;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+  }
+
+  #logo-footer {
+    height: 3rem;
+    margin: 0;
+  }
+
+  footer div a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
 @media only screen and (max-width: 430px) {
+  .body {
+    overflow-x: hidden;
+  }
+  header {
+    overflow: hidden;
+    background-image: url("../img/bg-mobile.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 5% 0% 10% 0%;
+  }
+
+  #return-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #return {
+    position: static;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+
+  #btn-book {
+    justify-content: center;
+    padding-right: 0%;
+    padding-top: 5%;
+    font-size: 0.7rem;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.38px;
+    margin: 1%;
+  }
+
+  .title {
+    z-index: 3;
+    font-size: 3.2rem;
+    line-height: 65px;
+    margin-left: 30px;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.8px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #ce-credits {
+    top: 77%;
+    left: -80%;
+    width: 65px;
+    height: 65px;
+    font-size: 0.8rem;
+    z-index: 2;
+    margin-left: -8%;
+  }
+
+  #circle-left {
+    width: 12%;
+    overflow: hidden;
+  }
+
+  #circle-1 {
+    visibility: hidden;
+  }
+
+  #circle-2 {
+    visibility: hidden;
+  }
+
+  #circle-3 {
+    visibility: hidden;
+  }
+
+  #intermediate {
+    padding: 0% 2%;
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+
+  /*--HOTEL--*/
+
+  #location-tit {
+    letter-spacing: 1.5px;
+    font-size: 2.5rem;
+  }
+
+  #location-sub {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  #location-dir {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+  }
+
+  /*--ABSTRACT--*/
+
+  #abstract {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3%;
+  }
+
+  #abstract div img {
+    width: 60%;
+    margin: 0%;
+  }
+
+  #abstract p {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  /*--ORADORES--*/
+
+  #orators {
+    background-color: #182256;
+    font-family: "Roboto" Thin, sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*--PROGRAM--*/
+
+  #program {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 1rem;
+    list-style-image: url("../img/ul-ico.png");
+  }
+
+  .inter {
+    list-style-image: url("../img/ul-ico-2.png");
+  }
+
+  /*--WORKSHOP--*/
+
+  #workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workshops-tit {
+    margin-bottom: 15%;
+  }
+
+  #workshop-1 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-1 div h5 {
+    font-size: 1rem;
+  }
+
+  #workshop-2 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-2 div h5 {
+    font-size: 1rem;
+  }
+
+  /*--REGISTRO--*/
+
+  #register {
+    background-color: #182256;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #register h2 {
+    font-size: 1.5rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #register p {
+    font-size: 1rem;
+  }
+
+  #register a {
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  #register button {
+    border: 2px solid #5c32ea;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 3% 5% 3% 5%;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+  }
+
+  #logo-footer {
+    height: 3rem;
+    margin: 0;
+  }
+
+  footer div a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+/* acá va lo de  QUIQUE */
+@media only screen and (max-width: 428px) {
   .body {
     overflow-x: hidden;
   }
@@ -452,10 +904,6 @@
     padding: 5% 0% 10% 0%;
   }
 
-  #btn-book {
-    visibility: hidden;
-  }
-
   #return {
     position: static;
     margin-left: 15%;
@@ -666,10 +1114,6 @@
     background-position: top center;
     background-repeat: no-repeat;
     padding: 5% 0% 10% 0%;
-  }
-
-  #btn-book {
-    visibility: hidden;
   }
 
   #return {
@@ -887,10 +1331,6 @@
     padding: 5% 0% 10% 0%;
   }
 
-  #btn-book {
-    visibility: hidden;
-  }
-
   #return {
     position: static;
     margin-left: 15%;
@@ -1092,10 +1532,6 @@
 }
 
 @media screen and (max-width: 320px) {
-  #btn-book {
-    visibility: hidden;
-  }
-
   #date {
     font-family: "Roboto" Thin, sans-serif;
     font-size: 0.7rem;
