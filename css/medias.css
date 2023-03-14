@@ -445,7 +445,7 @@
   }
   header {
     overflow: hidden;
-    background-image: url("../img/bg-mobile.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -481,7 +481,7 @@
     font-size: 3.2rem;
     line-height: 65px;
     margin-left: 30px;
-    color: #caff0b !important;
+    color: white;
   }
 
   #subtitle {
@@ -661,7 +661,7 @@
     overflow: hidden;
   }
   header {
-    background-image: url("../img/bg-mobile.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -880,7 +880,7 @@
   }
   header {
     overflow: hidden;
-    background-image: url("../img/bg-mobile.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
