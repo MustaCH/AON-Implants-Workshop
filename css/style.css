@@ -1,0 +1,289 @@
+style.css * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+section {
+  padding: 3%;
+}
+/*-- SETEO INICIAL --*/
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Anton", sans-serif;
+}
+
+/*--ENCABEZADO--*/
+
+header {
+  background-image: url("../img/bg.jpg");
+  padding: 6% 0% 10% 0%;
+}
+
+#return {
+  position: fixed;
+  top: 3%;
+  margin-left: 1%;
+  transition: transform 300ms ease-out;
+  z-index: 1;
+}
+
+#return:hover {
+  transform: translate(0px, 0px) scale(0.9, 0.9);
+}
+
+#date {
+  font-family: "Roboto" Thin, sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 1.7px;
+}
+
+#tit-container {
+  width: max-content;
+  position: relative;
+}
+
+#circle-left {
+  position: relative;
+}
+
+#circle-rigth {
+  position: relative;
+}
+
+.title {
+  font-size: 7rem;
+  line-height: 125px;
+
+  box-shadow: -30px 0px 0px 0px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: -30px 1px 0px -1px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -30px 1px 0px -1px rgba(255, 255, 255, 1);
+}
+
+#subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 7.58px;
+  position: relative;
+  padding: 0%;
+}
+
+#btn-book {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+
+#btn-book-now {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 1.3em;
+  font-weight: 800;
+  position: relative;
+  padding: 2%;
+  top: 95%;
+  left: 10%;
+  color: #fff;
+  width: 15em;
+  height: auto;
+  border: none;
+  background: #9d0000;
+  box-shadow: 10px 10px 18px rgba(92, 50, 234, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+#btn-book-now:hover {
+  transform: translate(0px, 0px) scale(0.9, 0.9);
+}
+
+#circle-1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 20px solid #9d0000;
+  border-radius: 50%;
+  top: 80%;
+  left: 130%;
+}
+
+#circle-2 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 10px solid #5830de;
+  border-radius: 50%;
+  top: 30%;
+  left: 15%;
+}
+
+#circle-3 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 10px solid #9d0000;
+  border-radius: 50%;
+  top: -45%;
+  left: 85%;
+}
+
+#ce-credits {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 45%;
+  left: -5%;
+  border: 20px solid #5830de;
+  border-radius: 50%;
+  background: #5830de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 0%;
+}
+
+/*--INTERMEDIO--*/
+
+#intermediate {
+  font-family: "Roboto" Thin, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0%;
+}
+
+/*--HOTEL--*/
+
+#location-tit {
+  letter-spacing: 1.5px;
+  font-size: 4.5rem;
+}
+
+#location-sub {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+#location-dir {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+/*--ABSTRACT--*/
+
+#abstract {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+#abstract div img {
+  width: 100%;
+  margin: 5% 5% 5% 5%;
+}
+
+#abstract p {
+  margin-top: 8%;
+  width: 50%;
+}
+
+/*--ORADORES--*/
+
+#orators {
+  background-color: #182256;
+  font-family: "Roboto" Thin, sans-serif;
+}
+
+/*--PROGRAM--*/
+
+#program {
+  font-family: "Roboto" Thin, sans-serif;
+  font-size: 1.5rem;
+  list-style-image: url("../img/ul-ico.png");
+}
+
+.inter {
+  list-style-image: url("../img/ul-ico-2.png");
+}
+
+/*--WORKSHOP--*/
+
+.workshop {
+  width: 30%;
+}
+
+#workshop-1 {
+  border-radius: 50px;
+  border-bottom-right-radius: 135px;
+}
+
+#workshop-2 {
+  border-radius: 50px;
+  border-bottom-right-radius: 135px;
+}
+
+#workshop-tit {
+  font-family: "Roboto", sans-serif;
+}
+
+/*--REGISTRO--*/
+
+#register {
+  background-color: #182256;
+  padding: 0% 0% 5% 0%;
+}
+
+#register h2 {
+  font-size: 3rem;
+  margin: 5% 0% 5% 0%;
+}
+
+#register p {
+  font-size: 1.5rem;
+}
+
+#register a {
+  width: 50%;
+  margin-top: 5%;
+}
+
+#register button {
+  border: 2px solid #b084fe;
+  border-radius: 0%;
+  font-size: 1.5rem;
+  font-weight: 550;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+  padding: 2% 6% 2% 6%;
+}
+
+#register button:hover {
+  color: white;
+  background-color: #b084fe;
+}
+
+/*--FOOTER--*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4%;
+}
+
+#logo-footer {
+  height: 3rem;
+  margin-right: 3rem;
+}
+
+footer div a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}

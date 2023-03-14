@@ -1,0 +1,1126 @@
+/*==========================*/
+/* MEDIA QUERIES*/
+/*==========================*/
+
+@media screen and (max-width: 1920px) {
+  #btn-book {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  #btn-book {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+  }
+
+  #btn-book-now:hover {
+    transform: translate(0px, 0px) scale(0.9, 0.9);
+  }
+
+  #circle-1 {
+    top: 80%;
+    left: 25%;
+  }
+
+  #circle-2 {
+    top: 30%;
+    left: 15%;
+  }
+
+  #circle-3 {
+    top: -35%;
+    left: 70%;
+  }
+
+  #ce-credits {
+    top: 47%;
+    left: -5%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .body {
+    overflow: hidden;
+  }
+
+  #btn-book {
+    position: absolute;
+    top: 83%;
+    left: 71.2%;
+  }
+
+  #btn-book-now:hover {
+    transform: translate(0px, 0px) scale(0.9, 0.9);
+  }
+
+  #ce-credits {
+    top: 50%;
+    left: -5%;
+  }
+
+  #circle-1 {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .body {
+    overflow: hidden;
+  }
+
+  #btn-book {
+    position: absolute;
+    top: 85%;
+    left: 74%;
+    width: 77px;
+  }
+
+  #btn-book-now:hover {
+    transform: translate(0px, 0px) scale(0.9, 0.9);
+  }
+
+  #ce-credits {
+    top: 40%;
+    left: -5%;
+  }
+
+  #circle-1 {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .body {
+    overflow: hidden;
+  }
+
+  .title {
+    font-size: 6em;
+    line-height: 100px;
+  }
+
+  #btn-book {
+    position: absolute;
+    top: 82%;
+    left: 69%;
+  }
+
+  #btn-book-now:hover {
+    transform: translate(0px, 0px) scale(0.9, 0.9);
+  }
+
+  #ce-credits {
+    top: 50%;
+    left: -20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+    overflow: hidden;
+  }
+
+  header {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 6% 0% 10% 0%;
+  }
+
+  #btn-book {
+    position: absolute;
+    top: 51%;
+    left: 29%;
+  }
+
+  #btn-book-now {
+    width: 240px;
+    height: 55px;
+    font-size: 1rem;
+  }
+
+  #btn-book-now:hover {
+    transform: translate(0px, 0px) scale(0.9, 0.9);
+  }
+
+  #ce-credits {
+    top: 55%;
+    left: -30%;
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+  }
+
+  #tit-container {
+    width: fit-content;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 4em;
+    line-height: 80px;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 6px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #circle-left {
+    width: 15%;
+  }
+
+  #circle-1 {
+    visibility: hidden;
+  }
+
+  #circle-3 {
+    top: -15%;
+    left: 25%;
+    overflow: hidden;
+  }
+
+  #intermediate {
+    padding: 0% 2%;
+    font-size: 1.5rem;
+  }
+
+  #abstract div img {
+    width: 90%;
+  }
+  #abstract p {
+    margin-top: 8%;
+    width: 100%;
+  }
+  .workshop {
+    width: 50%;
+  }
+}
+
+/* acá va lo de  QUIQUE */
+@media only screen and (max-width: 430px) {
+  .body {
+    overflow-x: hidden;
+  }
+  header {
+    overflow: hidden;
+    background-image: url("../img/bg-mobile.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 5% 0% 10% 0%;
+  }
+
+  #return-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #return {
+    position: static;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+
+  #btn-book {
+    justify-content: center;
+    padding-right: 0%;
+    padding-top: 5%;
+    font-size: 0.7rem;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.38px;
+    margin: 1%;
+  }
+
+  .title {
+    z-index: 3;
+    font-size: 3.2rem;
+    line-height: 65px;
+    margin-left: 30px;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.8px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #ce-credits {
+    top: 77%;
+    left: -80%;
+    width: 65px;
+    height: 65px;
+    font-size: 0.8rem;
+    z-index: 2;
+    margin-left: -8%;
+  }
+
+  #circle-left {
+    width: 12%;
+    overflow: hidden;
+  }
+
+  #circle-1 {
+    visibility: hidden;
+  }
+
+  #circle-2 {
+    visibility: hidden;
+  }
+
+  #circle-3 {
+    visibility: hidden;
+  }
+
+  #intermediate {
+    padding: 0% 2%;
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+
+  /*--HOTEL--*/
+
+  #location-tit {
+    letter-spacing: 1.5px;
+    font-size: 2.5rem;
+  }
+
+  #location-sub {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  #location-dir {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+  }
+
+  /*--ABSTRACT--*/
+
+  #abstract {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3%;
+  }
+
+  #abstract div img {
+    width: 60%;
+    margin: 0%;
+  }
+
+  #abstract p {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  /*--ORADORES--*/
+
+  #orators {
+    background-color: #182256;
+    font-family: "Roboto" Thin, sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*--PROGRAM--*/
+
+  #program {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 1rem;
+    list-style-image: url("../img/ul-ico.png");
+  }
+
+  .inter {
+    list-style-image: url("../img/ul-ico-2.png");
+  }
+
+  /*--WORKSHOP--*/
+
+  #workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workshops-tit {
+    margin-bottom: 15%;
+  }
+
+  #workshop-1 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-1 div h5 {
+    font-size: 1rem;
+  }
+
+  #workshop-2 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-2 div h5 {
+    font-size: 1rem;
+  }
+
+  /*--REGISTRO--*/
+
+  #register {
+    background-color: #182256;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #register h2 {
+    font-size: 1.5rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #register p {
+    font-size: 1rem;
+  }
+
+  #register a {
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  #register button {
+    border: 2px solid #5c32ea;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 3% 5% 3% 5%;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+  }
+
+  #logo-footer {
+    height: 3rem;
+    margin: 0;
+  }
+
+  footer div a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+/* medidas mas chicas de mobile */
+@media screen and (max-width: 414px) {
+  .body {
+    overflow: hidden;
+  }
+  header {
+    overflow: hidden;
+    background-image: url("../img/bg-mobile.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 5% 0% 10% 0%;
+  }
+
+  #btn-book {
+    visibility: hidden;
+  }
+
+  #return {
+    position: static;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+
+  #ce-credits {
+    top: 77%;
+    left: 72%;
+    width: 65px;
+    height: 65px;
+    font-size: 0.8rem;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    margin: 1%;
+  }
+
+  .title {
+    font-size: 3.2rem;
+    line-height: 65px;
+    margin-left: 30px;
+    color: #caff0b !important;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.8px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #circle-rigth {
+    right: 25%;
+  }
+
+  #circle-left {
+    width: 12%;
+  }
+
+  #circle-1 {
+    visibility: hidden;
+  }
+
+  #circle-2 {
+    visibility: hidden;
+  }
+
+  #circle-3 {
+    visibility: hidden;
+  }
+
+  #intermediate {
+    padding: 0% 2%;
+    font-size: 1.2rem;
+  }
+
+  /*--HOTEL--*/
+
+  #location-tit {
+    letter-spacing: 1.5px;
+    font-size: 2.5rem;
+  }
+
+  #location-sub {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  #location-dir {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+  }
+
+  /*--ABSTRACT--*/
+
+  #abstract {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #abstract div img {
+    width: 60%;
+    margin: 0%;
+  }
+
+  #abstract p {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  /*--ORADORES--*/
+
+  #orators {
+    background-color: #182256;
+    font-family: "Roboto" Thin, sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*--PROGRAM--*/
+
+  #program {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 1rem;
+    list-style-image: url("../img/ul-ico.png");
+  }
+
+  .inter {
+    list-style-image: url("../img/ul-ico-2.png");
+  }
+
+  /*--WORKSHOP--*/
+
+  #workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workshops-tit {
+    margin-bottom: 15%;
+  }
+
+  #workshop-1 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-1 div h5 {
+    font-size: 1rem;
+  }
+
+  #workshop-2 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-2 div h5 {
+    font-size: 1rem;
+  }
+
+  /*--REGISTRO--*/
+
+  #register {
+    background-color: #182256;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #register h2 {
+    font-size: 1.5rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #register p {
+    font-size: 1rem;
+  }
+
+  #register a {
+    width: 60%;
+    margin-top: 5%;
+  }
+
+  #register button {
+    border: 2px solid #5c32ea;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 3% 5% 3% 5%;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+  }
+
+  #logo-footer {
+    height: 3rem;
+    margin: 0;
+  }
+
+  footer div a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .body {
+    overflow: hidden;
+  }
+  header {
+    background-image: url("../img/bg-mobile.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 5% 0% 10% 0%;
+  }
+
+  #btn-book {
+    visibility: hidden;
+  }
+
+  #return {
+    position: static;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+
+  #btn-book-mobile {
+    visibility: visible;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -2rem;
+  }
+
+  #ce-credits {
+    top: 75%;
+    left: 62%;
+    width: 65px;
+    height: 65px;
+    font-size: 0.9rem;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    margin: 1%;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 65px;
+    margin-left: 30px;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.8px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #circle-rigth {
+    right: 25%;
+  }
+
+  #circle-left {
+    width: 12%;
+  }
+
+  #circle-1 {
+    visibility: hidden;
+  }
+
+  #circle-2 {
+    visibility: hidden;
+  }
+
+  #circle-3 {
+    visibility: hidden;
+  }
+
+  #intermediate {
+    padding: 0% 2%;
+    font-size: 1.2rem;
+  }
+
+  /*--HOTEL--*/
+
+  #location-tit {
+    letter-spacing: 1.5px;
+    font-size: 3rem;
+  }
+
+  #location-sub {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  #location-dir {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+  }
+
+  /*--ABSTRACT--*/
+
+  #abstract {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #abstract div img {
+    width: 100%;
+    margin: 0%;
+  }
+
+  #abstract p {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  /*--ORADORES--*/
+
+  #orators {
+    background-color: #182256;
+    font-family: "Roboto" Thin, sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*--PROGRAM--*/
+
+  #program {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 1rem;
+    list-style-image: url("../img/ul-ico.png");
+  }
+
+  .inter {
+    list-style-image: url("../img/ul-ico-2.png");
+  }
+
+  /*--WORKSHOP--*/
+
+  #workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workshop-1 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-1 div h5 {
+    font-size: 1rem;
+  }
+
+  #workshop-2 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-2 div h5 {
+    font-size: 1rem;
+  }
+
+  /*--REGISTRO--*/
+
+  #register {
+    background-color: #182256;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #register h2 {
+    font-size: 2rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #register p {
+    font-size: 1rem;
+  }
+
+  #register a {
+    width: 60%;
+    margin-top: 5%;
+  }
+
+  #register button {
+    border: 2px solid #5c32ea;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2% 6% 2% 6%;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+  }
+
+  #logo-footer {
+    height: 3rem;
+    margin: 0;
+  }
+
+  footer div a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .body {
+    overflow: hidden;
+  }
+  header {
+    overflow: hidden;
+    background-image: url("../img/bg-mobile.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 5% 0% 10% 0%;
+  }
+
+  #btn-book {
+    visibility: hidden;
+  }
+
+  #return {
+    position: static;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+
+  #ce-credits {
+    top: 77%;
+    left: 72%;
+    width: 65px;
+    height: 65px;
+    font-size: 0.8rem;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    margin: 1%;
+  }
+
+  .title {
+    font-size: 3.2rem;
+    line-height: 65px;
+    margin-left: 30px;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.8px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #circle-rigth {
+    right: 25%;
+  }
+
+  #circle-left {
+    width: 12%;
+  }
+
+  #circle-1 {
+    visibility: hidden;
+  }
+
+  #circle-2 {
+    visibility: hidden;
+  }
+
+  #circle-3 {
+    visibility: hidden;
+  }
+
+  #intermediate {
+    padding: 0% 2%;
+    font-size: 1.2rem;
+  }
+
+  /*--HOTEL--*/
+
+  #location-tit {
+    letter-spacing: 1.5px;
+    font-size: 2.5rem;
+    margin-top: 0%;
+  }
+
+  #location-sub {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  #location-dir {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+  }
+
+  /*--ABSTRACT--*/
+
+  #abstract {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #abstract div img {
+    width: 60%;
+    margin: 0%;
+  }
+
+  #abstract p {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  /*--ORADORES--*/
+
+  #orators {
+    background-color: #182256;
+    font-family: "Roboto" Thin, sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*--PROGRAM--*/
+
+  #program {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 1rem;
+    list-style-image: url("../img/ul-ico.png");
+  }
+
+  .inter {
+    list-style-image: url("../img/ul-ico-2.png");
+  }
+
+  /*--WORKSHOP--*/
+
+  #workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workshops-tit {
+    margin-bottom: 15%;
+  }
+
+  #workshop-1 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-1 div h5 {
+    font-size: 1rem;
+  }
+
+  #workshop-2 {
+    border-radius: 50px;
+    border-bottom-right-radius: 135px;
+    width: 100%;
+  }
+
+  #workshop-2 div h5 {
+    font-size: 1rem;
+  }
+
+  /*--REGISTRO--*/
+
+  #register {
+    background-color: #182256;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #register h2 {
+    font-size: 1.5rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #register p {
+    font-size: 1rem;
+  }
+
+  #register a {
+    width: 60%;
+    margin-top: 5%;
+  }
+
+  #register button {
+    border: 2px solid #5c32ea;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 3% 5% 3% 5%;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+  }
+
+  #logo-footer {
+    height: 3rem;
+    margin: 0;
+  }
+
+  footer div a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #btn-book {
+    visibility: hidden;
+  }
+
+  #date {
+    font-family: "Roboto" Thin, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0px;
+    margin: 1%;
+  }
+
+  .title {
+    font-size: 2.8rem;
+    line-height: 65px;
+    margin-left: 30px;
+  }
+
+  #subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1.8px;
+    position: relative;
+    padding: 0%;
+  }
+
+  #btn-book-mobile {
+    visibility: visible;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -2rem;
+  }
+}
