@@ -2,21 +2,7 @@
 /* MEDIA QUERIES*/
 /*==========================*/
 
-@media screen and (max-width: 1920px) {
-  #btn-book {
-    position: absolute;
-    top: 70%;
-    left: 70%;
-  }
-}
-
 @media screen and (max-width: 1600px) {
-  #btn-book {
-    position: absolute;
-    top: 85%;
-    left: 70%;
-  }
-
   #btn-book-now:hover {
     transform: translate(0px, 0px) scale(0.9, 0.9);
   }
@@ -47,12 +33,6 @@
     overflow: hidden;
   }
 
-  #btn-book {
-    position: absolute;
-    top: 83%;
-    left: 71.2%;
-  }
-
   #btn-book-now:hover {
     transform: translate(0px, 0px) scale(0.9, 0.9);
   }
@@ -70,13 +50,6 @@
 @media screen and (max-width: 1360px) {
   .body {
     overflow: hidden;
-  }
-
-  #btn-book {
-    position: absolute;
-    top: 85%;
-    left: 74%;
-    width: 77px;
   }
 
   #btn-book-now:hover {
@@ -103,12 +76,6 @@
     line-height: 100px;
   }
 
-  #btn-book {
-    position: absolute;
-    top: 82%;
-    left: 69%;
-  }
-
   #btn-book-now:hover {
     transform: translate(0px, 0px) scale(0.9, 0.9);
   }
@@ -132,10 +99,12 @@
     padding: 6% 0% 10% 0%;
   }
 
-  #btn-book {
-    position: absolute;
-    top: 51%;
-    left: 29%;
+  #btn-book a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 5%;
   }
 
   #btn-book-now {
@@ -233,6 +202,13 @@
     position: static;
     margin-bottom: 10%;
     width: 100%;
+  }
+
+  #btn-book a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
   }
 
   #btn-book {
@@ -461,6 +437,13 @@
     width: 100%;
   }
 
+  #btn-book a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+  }
+
   #btn-book {
     justify-content: center;
     padding-right: 0%;
@@ -686,6 +669,13 @@
     position: static;
     margin-bottom: 10%;
     width: 100%;
+  }
+
+  #btn-book a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
   }
 
   #btn-book {
@@ -1122,6 +1112,13 @@
     margin-bottom: 10%;
   }
 
+  #btn-book a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+  }
+
   #btn-book-mobile {
     visibility: visible;
     position: absolute;
@@ -1337,6 +1334,13 @@
     margin-bottom: 10%;
   }
 
+  #btn-book a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+  }
+
   #ce-credits {
     top: 77%;
     left: 72%;
@@ -1537,6 +1541,13 @@
     font-size: 0.7rem;
     letter-spacing: 0px;
     margin: 1%;
+  }
+
+  #btn-book a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
   }
 
   .title {

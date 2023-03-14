@@ -70,10 +70,11 @@ header {
   padding: 0%;
 }
 
-#btn-book {
-  position: absolute;
-  top: 85%;
-  left: 75%;
+#btn-book a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-decoration: none;
 }
 
 #btn-book-now {
@@ -81,10 +82,7 @@ header {
   font-style: normal;
   font-size: 1.3em;
   font-weight: 800;
-  position: relative;
-  padding: 2%;
-  top: 95%;
-  left: 10%;
+  padding: 0.5%;
   color: #fff;
   width: 15em;
   height: auto;
@@ -94,6 +92,7 @@ header {
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
+  margin-right: 5%;
 }
 
 #btn-book-now:hover {
