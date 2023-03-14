@@ -99,12 +99,17 @@
     padding: 6% 0% 10% 0%;
   }
 
+  #return {
+    position: static;
+    margin-bottom: 10%;
+    margin-left: 0%;
+  }
+
   #btn-book a {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
-    margin-top: 5%;
     margin-right: 0%;
   }
 
@@ -117,6 +122,17 @@
 
   #btn-book-now:hover {
     transform: translate(0px, 0px) scale(0.9, 0.9);
+  }
+
+  .btn-book-desk {
+    display: none;
+  }
+
+  .btn-book-mob {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5% 0% 0% 0%;
   }
 
   #ce-credits {
@@ -203,6 +219,7 @@
   #return {
     position: static;
     margin-bottom: 10%;
+    margin-left: 0%;
     width: 100%;
   }
 
@@ -441,6 +458,7 @@
   #return {
     position: static;
     margin-bottom: 10%;
+    margin-left: 0%;
     width: 100%;
   }
 
@@ -680,6 +698,7 @@
   #return {
     position: static;
     margin-bottom: 10%;
+    margin-left: 0%;
     width: 100%;
   }
 
@@ -913,7 +932,7 @@
 
   #return {
     position: static;
-    margin-left: 15%;
+    margin-left: 0%;
     margin-bottom: 10%;
   }
 
@@ -1129,7 +1148,7 @@
 
   #return {
     position: static;
-    margin-left: 15%;
+    margin-left: 0%;
     margin-bottom: 10%;
   }
 
@@ -1355,7 +1374,7 @@
 
   #return {
     position: static;
-    margin-left: 15%;
+    margin-left: 0%;
     margin-bottom: 10%;
   }
 
